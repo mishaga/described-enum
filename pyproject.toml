@@ -1,0 +1,44 @@
+[project]
+name = "described-enum"
+version = "0.0.1"
+description = "Python Enums with description property"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Mikhail Shagov", email = "mishaga@me.com" },
+]
+maintainers = [
+    { name = "Mikhail Shagov", email = "mishaga@me.com" },
+]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["enum", "enums", "described enum", "enum with description"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+
+[project.urls]
+Homepage = "https://github.com/mishaga/described-enum"
+Repository = "https://github.com/mishaga/described-enum"
+Issues = "https://github.com/mishaga/described-enum/issues"
+
+
+[build-system]
+requires = ["uv_build>=0.8.11"]
+build-backend = "uv_build"
+
+
+[tool.uv.build-backend]
+module-name = "described_enum"
+module-root = ""
